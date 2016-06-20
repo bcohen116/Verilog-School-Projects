@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Ben\Documents\Xilinx\Lab5\sevenInputCircuit.ncd
+OUTFILE=C:\Users\Ben\Documents\Xilinx\Lab5\sevenInputCircuit.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\Ben\Documents\Xilinx\Lab5
+LICENSE=WebPack
+USER_INFO=211165899_0_0_436

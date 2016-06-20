@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/Ben/Documents/Xilinx/Lab5/sevenInputCircuit.xst" -ofn "C:/Users/Ben/Documents/Xilinx/Lab5/sevenInputCircuit.syr" 
+xst -intstyle ise -ifn "C:/Users/Ben/Documents/Xilinx/Lab5/sevenInputCircuit.xst" -ofn "C:/Users/Ben/Documents/Xilinx/Lab5/sevenInputCircuit.syr" 
+xst -intstyle ise -ifn "C:/Users/Ben/Documents/Xilinx/Lab5/sevenInputCircuit.xst" -ofn "C:/Users/Ben/Documents/Xilinx/Lab5/sevenInputCircuit.syr" 
+xst -intstyle ise -ifn "C:/Users/Ben/Documents/Xilinx/Lab5/sevenInputCircuit.xst" -ofn "C:/Users/Ben/Documents/Xilinx/Lab5/sevenInputCircuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 sevenInputCircuit.ngc sevenInputCircuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenInputCircuit_map.ncd sevenInputCircuit.ngd sevenInputCircuit.pcf 
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenInputCircuit_map.ncd sevenInputCircuit.ngd sevenInputCircuit.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 sevenInputCircuit.ngc sevenInputCircuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenInputCircuit_map.ncd sevenInputCircuit.ngd sevenInputCircuit.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5contraints.ucf -p xc3s100e-cp132-4 sevenInputCircuit.ngc sevenInputCircuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sevenInputCircuit_map.ncd sevenInputCircuit.ngd sevenInputCircuit.pcf 
+par -w -intstyle ise -ol high -t 1 sevenInputCircuit_map.ncd sevenInputCircuit.ncd sevenInputCircuit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sevenInputCircuit.twx sevenInputCircuit.ncd -o sevenInputCircuit.twr sevenInputCircuit.pcf -ucf lab5contraints.ucf 
+bitgen -intstyle ise -f sevenInputCircuit.ut sevenInputCircuit.ncd 

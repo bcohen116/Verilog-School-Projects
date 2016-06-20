@@ -1,0 +1,13 @@
+	NET "A"  LOC = "N3";
+	NET "B"  LOC = "E2";
+	NET "C"  LOC = "F3";
+	NET "D"  LOC = "G3";
+	NET "E"  LOC = "B4";
+	NET "F"  LOC = "K3";
+	NET "G"  LOC = "L3";
+	
+	
+	// outputs
+	NET "X"  LOC = "G1";
+	NET "Z"  LOC = "P4";
+	NET "Y"  LOC = "N4";
