@@ -1,0 +1,29 @@
+Command line:
+   lab6module_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60161
+
+Mon Mar 14 15:31:42 2016
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 362.226 Meg
+
+ Total Signals          : 21
+ Total Nets             : 21
+ Total Signal Drivers   : 9
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 101
+Total Line Count : 18
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 362.226 Meg
+
+Mon Mar 14 15:31:55 2016
+
