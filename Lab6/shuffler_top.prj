@@ -1,0 +1,3 @@
+verilog work "lab6module.v"
+verilog work "hex7seg.v"
+verilog work "shuffler_top.v"

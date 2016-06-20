@@ -1,0 +1,14 @@
+[Inputs]
+A
+B
+C
+D
+[Outputs]
+W
+X
+Y
+Z
+[BiDir]
+[ATTRIBUTES]
+VeriModel lab6module
+

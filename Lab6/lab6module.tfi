@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+lab6module instance_name (
+    .A(A), 
+    .B(B), 
+    .C(C), 
+    .D(D), 
+    .W(W), 
+    .X(X), 
+    .Y(Y), 
+    .Z(Z)
+    );
+
+

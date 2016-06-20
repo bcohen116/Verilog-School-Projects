@@ -1,0 +1,3 @@
+vhdtdtfi -lib work C:/Users/Ben/Documents/Xilinx/Lab6/lab6module.v -lang verilog -prj Lab6 -o lab6module.spl -module lab6module -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e lab6module.spl C:/Users/Ben/Documents/Xilinx/Lab6/lab6module.sym 
+vhdtdtfi -lang verilog -prj Lab6 -o C:/Users/Ben/Documents/Xilinx/Lab6/lab6module.tfi -lib work C:/Users/Ben/Documents/Xilinx/Lab6//lab6module.v -module lab6module -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

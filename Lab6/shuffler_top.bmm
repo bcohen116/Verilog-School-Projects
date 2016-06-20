@@ -1,0 +1,11 @@
+module shuffler_top(
+input [3:0] sw_t,
+output [6:0] a_to_g_t,
+output dp,
+output [3:0] an);
+wire [3:0] bcd_t;
+assign dp=1;
+assign an=4'b1110;
+number_shuffler m1(.sw(sw_t), .bcd(bcd_t));
+hex7seg m2(.x(bcd_t), .a_to_g(a_to_g_t));
+endmodule

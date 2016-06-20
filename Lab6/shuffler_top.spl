@@ -1,0 +1,10 @@
+[Inputs]
+=sw_t[3:0]=
+[Outputs]
+dp
+=a_to_g_t[6:0]=
+=an[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel shuffler_top
+

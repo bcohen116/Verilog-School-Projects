@@ -1,0 +1,17 @@
+NET "sw[3]" LOC = "B4";
+NET "sw[2]" LOC = "K3";
+NET "sw[1]" LOC = "L3";
+NET "sw[0]" LOC = "P11";
+
+NET "a_to_g_t<6>" LOC = "L14";
+NET "a_to_g_t<5>" LOC = "H12";
+NET "a_to_g_t<4>" LOC = "N14";
+NET "a_to_g_t<3>" LOC = "N11";
+NET "a_to_g_t<2>" LOC = "P12";
+NET "a_to_g_t<1>" LOC = "L13";
+NET "a_to_g_t<0>" LOC = "M12";
+
+NET "an<0>" LOC = "F12";
+NET "an<1>" LOC = "J12";
+NET "an<2>" LOC = "M13";
+NET "an<3>" LOC = "K14";
