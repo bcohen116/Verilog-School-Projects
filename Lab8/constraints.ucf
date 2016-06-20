@@ -1,0 +1,20 @@
+NET "clock" LOC = "B8";
+NET "dI" LOC = "P11";
+NET "dS" LOC = "G12";
+NET "clear" LOC = "A7";
+
+NET "clk1" LOC = "M5";
+NET "Zout" LOC = "M11";
+
+NET "seg<6>" LOC = "L14";
+NET "seg<5>" LOC = "H12";
+NET "seg<4>" LOC = "N14";
+NET "seg<3>" LOC = "N11";
+NET "seg<2>" LOC = "P12";
+NET "seg<1>" LOC = "L13";
+NET "seg<0>" LOC = "M12";
+
+NET "an<0>" LOC = "F12";
+NET "an<1>" LOC = "J12";
+NET "an<2>" LOC = "M13";
+NET "an<3>" LOC = "K14";

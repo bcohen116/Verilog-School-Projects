@@ -1,0 +1,3 @@
+verilog work "shiftR.v"
+verilog work "testRegister.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

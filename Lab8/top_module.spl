@@ -1,0 +1,12 @@
+[Inputs]
+clock
+dI
+dS
+clear
+[Outputs]
+Zout
+clk1
+[BiDir]
+[ATTRIBUTES]
+VeriModel top_module
+

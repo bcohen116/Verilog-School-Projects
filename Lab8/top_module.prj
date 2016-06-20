@@ -1,0 +1,7 @@
+verilog work "shiftR.v"
+verilog work "oneZoneDtr.v"
+verilog work "Debounce.v"
+verilog work "Clock_down_converter.v"
+verilog work "bin2bcd.v"
+verilog work "bcd7seg.v"
+verilog work "top_module.v"
